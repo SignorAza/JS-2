@@ -1,15 +1,15 @@
-// var age = +prompt ('Введите ваш возраст');
+var age = +prompt ('Введите ваш возраст');
 
-// if(age<=18){
-//     console.log('Вы еще молоды, Вам нужно учиться');
-// }else if (age <= 50){
-//     console.log('Вам нужно работать');
-// }else if (age <= 59){
-//     console.log('Вам скоро на пенсию');
-// }else if (age <= 100){
-//     console.log('Вы пенсионер');
-// }else {
-//     console.log('Что-то пошло не так')} 
+if(age<=18){
+    console.log('Вы еще молоды, Вам нужно учиться');
+}else if (age <= 50){
+    console.log('Вам нужно работать');
+}else if (age <= 59){
+    console.log('Вам скоро на пенсию');
+}else if (age <= 100){
+    console.log('Вы пенсионер');
+}else {
+    console.log('Что-то пошло не так')} 
 var text = +prompt ('Готовы?');
 var age = +prompt ('Введите ваш возраст');
 
@@ -110,16 +110,38 @@ var time = +prompt('Введите время в числах')
 
 
  
-var text3 = +prompt ('И последнее задание');       
+// var text3 = +prompt ('И последнее задание');       
+// var a = +prompt ('Выберите первое число')       
+// var b = +prompt ('Выберите второе число')       
+// var c = +prompt ('Выберите третье число')
+
+// if ((b>a) && (b<c) || (b<a) && (b>c)){
+//     alert('Ваше среднее число ' + b);
+// }else if ((a>c) && (a<b) || (a<c) && (a>b)){
+//         alert('Ваше среднее число ' + a);
+// }else if((c>a) && (c<b) || (c<a) && (c>b)){
+//         alert('Ваше среднее число ' + с);
+// }else if ((a==b) && (a==c) && (b==c)){
+//         alert ("Одно из чисел одинаковый");
+// }else {
+// alert (c)}
+
+// var text3 = +prompt ('Красавчик');
+
 var a = +prompt ('Выберите первое число')       
 var b = +prompt ('Выберите второе число')       
 var c = +prompt ('Выберите третье число')
 
-if ((b>a) && (b<c) || (b<a) && (b>c)){
-    alert('Ваше среднее число ' + b);
-}else {alert(c)}   
+if ((a==b) && (a==c) && (b==c)){
+        alert ('Вы вели одинаковые числа');
+}else if ((a>b) && (a<c) || (a<b) && (a>c)){
+        alert (a);
+}else if ((b>a) && (b<c) || (b<a) && (b>c)){
+        alert (b);
+}else{
+alert (c);
+}  
 
-var text3 = +prompt ('Красавчик');
 
 
 
