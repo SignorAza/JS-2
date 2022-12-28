@@ -11,6 +11,8 @@
 // }else {
 //     console.log('Что-то пошло не так')} 
 // var text = +prompt ('Готовы?');
+
+
 var age = +prompt ('Введите ваш возраст');
 
 if(age<=18){
@@ -25,7 +27,7 @@ if(age<=18){
     alert('Что-то пошло не так')}
 
 
-    var text2 = +prompt ('Не расслабляемся');
+    var text2 = alert ('Не расслабляемся');
 var time = +prompt('Введите время в числах')
     switch(time) {
     case 0:
@@ -106,7 +108,7 @@ var time = +prompt('Введите время в числах')
     default:
             alert('Выберите заного');
             break;
-    }        
+    }       
 
 
  
@@ -126,7 +128,6 @@ var time = +prompt('Введите время в числах')
 // }else {
 // alert (c)}
 
-// var text3 = +prompt ('Красавчик');
 
 var a = +prompt ('Выберите первое число')       
 var b = +prompt ('Выберите второе число')       
@@ -135,12 +136,16 @@ var c = +prompt ('Выберите третье число')
 if ((a==b) && (a==c) && (b==c)){
         alert ('Вы вели одинаковые числа');
 }else if ((a>b) && (a<c) || (a<b) && (a>c)){
-        alert (a);
+        alert (a );
 }else if ((b>a) && (b<c) || (b<a) && (b>c)){
         alert (b);
+}else if ((c>a) && (c<b) || (c<a) && (c>b)){
+        alert (c);
+}else if (c=(a==b)){
+        alert ('Тут двое одинаковых чисел, повторите попытку');
 }else{
-alert (c);
-}  
+        alert ('Тут двое одинаковых чисел повторите попытку');
+}
 
 
 
