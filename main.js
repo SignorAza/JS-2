@@ -1,16 +1,16 @@
-var age = +prompt ('Введите ваш возраст');
+// var age = +prompt ('Введите ваш возраст');
 
-if(age<=18){
-    console.log('Вы еще молоды, Вам нужно учиться');
-}else if (age <= 50){
-    console.log('Вам нужно работать');
-}else if (age <= 59){
-    console.log('Вам скоро на пенсию');
-}else if (age <= 100){
-    console.log('Вы пенсионер');
-}else {
-    console.log('Что-то пошло не так')} 
-var text = +prompt ('Готовы?');
+// if(age<=18){
+//     console.log('Вы еще молоды, Вам нужно учиться');
+// }else if (age <= 50){
+//     console.log('Вам нужно работать');
+// }else if (age <= 59){
+//     console.log('Вам скоро на пенсию');
+// }else if (age <= 100){
+//     console.log('Вы пенсионер');
+// }else {
+//     console.log('Что-то пошло не так')} 
+// var text = +prompt ('Готовы?');
 var age = +prompt ('Введите ваш возраст');
 
 if(age<=18){
